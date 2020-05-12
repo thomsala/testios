@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
@@ -16,5 +17,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func changeQuote(_ sender: Any) {
+    }
+    @IBOutlet weak var quoteLabel: UILabel!
 }
 
