@@ -17,6 +17,7 @@
 		C2560D012468837A00684AB5 /* tutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2560D002468837A00684AB5 /* tutoTests.swift */; };
 		C2560D0C2469EAB600684AB5 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2560D0B2469EAB600684AB5 /* RestaurantTableViewCell.swift */; };
 		C2560D102469F4AE00684AB5 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2560D0F2469F4AE00684AB5 /* RestaurantTableViewController.swift */; };
+		C2560D14246BEB1400684AB5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2560D13246BEB1400684AB5 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,8 @@
 		C2560D002468837A00684AB5 /* tutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutoTests.swift; sourceTree = "<group>"; };
 		C2560D022468837A00684AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2560D0B2469EAB600684AB5 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
-		C2560D0F2469F4AE00684AB5 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
-		C2560D11246A8D0300684AB5 /* tuto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tuto-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2560D0F2469F4AE00684AB5 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2560D13246BEB1400684AB5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		EA28F6E228128239C3937FD0 /* Pods-tuto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuto.release.xcconfig"; path = "Target Support Files/Pods-tuto/Pods-tuto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +109,6 @@
 		C2560CE82468837800684AB5 /* tuto */ = {
 			isa = PBXGroup;
 			children = (
-				C2560D11246A8D0300684AB5 /* tuto-Bridging-Header.h */,
 				C2560CE92468837800684AB5 /* AppDelegate.swift */,
 				C2560CEB2468837800684AB5 /* SceneDelegate.swift */,
 				C2560CED2468837800684AB5 /* ViewController.swift */,
@@ -118,6 +118,7 @@
 				C2560CF42468837A00684AB5 /* LaunchScreen.storyboard */,
 				C2560CF72468837A00684AB5 /* Info.plist */,
 				C2560D0F2469F4AE00684AB5 /* RestaurantTableViewController.swift */,
+				C2560D13246BEB1400684AB5 /* Restaurant.swift */,
 			);
 			path = tuto;
 			sourceTree = "<group>";
@@ -278,6 +279,7 @@
 			files = (
 				C2560D0C2469EAB600684AB5 /* RestaurantTableViewCell.swift in Sources */,
 				C2560CEE2468837800684AB5 /* ViewController.swift in Sources */,
+				C2560D14246BEB1400684AB5 /* Restaurant.swift in Sources */,
 				C2560D102469F4AE00684AB5 /* RestaurantTableViewController.swift in Sources */,
 				C2560CEA2468837800684AB5 /* AppDelegate.swift in Sources */,
 				C2560CEC2468837800684AB5 /* SceneDelegate.swift in Sources */,
