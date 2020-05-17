@@ -9,8 +9,9 @@
 import UIKit
 //import RxSwift
 
-class ViewController: UIViewController {
+class HomeRestaurantViewController: UIViewController {
 
+    @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

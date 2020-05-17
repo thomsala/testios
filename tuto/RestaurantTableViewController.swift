@@ -10,8 +10,9 @@ import UIKit
 import Parse
 import Kingfisher
 
-class RestaurantTableViewController: UITableViewController {
+class RestaurantTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var tableView: UITableView!
     var restaurantList = [Restaurant]()
     
     func loadRestaurant() {
@@ -57,17 +58,17 @@ override func viewDidLoad() {
 
 // MARK: - Table view data source
 
-override func numberOfSections(in tableView: UITableView) -> Int {
+func numberOfSections(in tableView: UITableView) -> Int {
     return 1
 }
 
-override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     // #warning Incomplete implementation, return the number of rows
     return self.restaurantList.count
 }
 
 
-override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
     let cellIdentifier = "RestaurantTableViewCell"
     
